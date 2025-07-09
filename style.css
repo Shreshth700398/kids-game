@@ -1,0 +1,78 @@
+body {
+  font-family: 'Fredoka', 'Baloo 2', cursive;
+  background-image: url('https://thumbs.dreamstime.com/b/cute-fantasy-landscape-background-kids-rainbow-bright-sky-castle-hill-green-meadow-flowers-cute-fantasy-168330475.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px #ff6f91;
+  margin-top: 20px;
+}
+
+.game-select {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.game-select button {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 15px;
+  background-color: #ffdde1;
+  border: 2px solid #ff6f91;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.game-select button:hover {
+  background-color: #fff3f6;
+  transform: scale(1.05);
+}
+
+#game-area {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 600px;
+}
+
+#game-area button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  border: none;
+  background-color: #ffd3e0;
+  border: 2px solid #f48fb1;
+  cursor: pointer;
+  font-family: 'Fredoka', cursive;
+  transition: all 0.2s;
+}
+
+#game-area button:hover {
+  background-color: #fff0f4;
+  transform: scale(1.05);
+}
+
+.animal-img {
+  width: 220px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
