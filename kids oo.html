@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Toddler Fun Zone 🧸</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class="title">Toddler Fun Zone 🌈</h1>
+  
+  <div class="game-select">
+    <button onclick="startColorGame()">🎨 Color Game</button>
+    <button onclick="startAlphabetGame()">🔤 Alphabet Game</button>
+    <button onclick="startNumberGame()">🔢 Number Game</button>
+    <button onclick="startAnimalGame()">🐶 Animal Game</button>
+    <button onclick="showParentCorner()">👨‍👩‍👧 Parent Corner</button>
+  </div>
+
+  <div id="game-area"></div>
+
+  <audio id="parent-audio" controls style="display:none;">
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+
+ <div id="feedback" style="display:none; margin-top: 20px; text-align: center; width: 100%;">
+  <img id="feedbackImg" src="" alt="Feedback" style="max-width: 180px; margin: 0 auto; display: block;" />
+</div>
+
+
+
+</div>
+
+</body>
+</html>
+
